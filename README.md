@@ -6,12 +6,12 @@ This is Redmine plugin which exports issue list to XLSX format file.
 
 Project Health
 ==============
-[![Build Status](https://travis-ci.org/two-pack/redmine_xlsx_format_issue_exporter.svg?branch=master)](https://travis-ci.org/two-pack/redmine_xlsx_format_issue_exporter) [![Code Climate](https://codeclimate.com/github/two-pack/redmine_xlsx_format_issue_exporter.png)](https://codeclimate.com/github/two-pack/redmine_xlsx_format_issue_exporter)
+[![CI Status](https://github.com/two-pack/redmine_xlsx_format_issue_exporter/workflows/CI/badge.svg)](https://github.com/two-pack/redmine_xlsx_format_issue_exporter/actions) [![Code Climate](https://codeclimate.com/github/two-pack/redmine_xlsx_format_issue_exporter.png)](https://codeclimate.com/github/two-pack/redmine_xlsx_format_issue_exporter) [![Stars](https://img.shields.io/redmine/plugin/stars/redmine_xlsx_format_issue_exporter.svg)](https://www.redmine.org/plugins/redmine_xlsx_format_issue_exporter)
 
 Requirements
 ============
 
-* Redmine 2.3.x or higher.
+* Redmine 3.2.x or higher.
 
 Installation
 ============
@@ -19,7 +19,7 @@ Installation
 In Redmine folder,
 ```
 $ cd plugins
-$ git clone https://github.com/two-pack/redmine_xlsx_format_issue_exporter.git
+$ git clone https://github.com/two-pack/redmine_xlsx_format_issue_exporter.git redmine_xlsx_format_issue_exporter
 $ cd ..
 $ bundle install --without test
 ```
@@ -27,7 +27,10 @@ Finally restart Redmine.
 
 Usage
 =====
-* Goto Issues page and click **XLSX** link in right-bottom.
+* Click **XLSX** link in right-bottom of following pages.
+  * Issues
+  * Spent time
+  * Users
 
 Acknowledgement
 ===============
